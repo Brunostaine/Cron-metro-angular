@@ -35,7 +35,7 @@
 https://github.com/Brunostaine/Cronometro-angular
 
 **🛠️ Abrir e rodar o projeto**<br>
-https://github.com/Brunostaine/Cronometro-angular
+cronometro-bruno.netlify.app
 
 ## Tecnologias utilizadas
 * HTML
