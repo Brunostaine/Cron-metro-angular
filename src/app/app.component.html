@@ -1,13 +1,10 @@
 
-    <div class="text-center">
+    <div class="text-center template">
         <h1>Cronômetro</h1>
-        <p> {{ horas }} : {{ minutos }} : {{ segundos }}</p>
+        <p class="container form-control"
+        > {{ horas }} : {{ minutos }} : {{ segundos }}</p>
         
         <button class="btn btn-primary" 
         (click)="play()"
         >Iniciar</button>
-
-        <button class="btn btn-primary" 
-        
-        >Zerar</button>
     </div>
