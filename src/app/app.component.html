@@ -4,7 +4,15 @@
         <p class="container form-control"
         > {{ horas }} : {{ minutos }} : {{ segundos }}</p>
         
-        <button class="btn btn-primary" 
+        <button *ngIf=" segundos < 1 ; else parar"
+        class="btn btn-primary" 
         (click)="play()"
         >Iniciar</button>
+
+        <ng-template #parar>
+            <button 
+            class="btn btn-primary" 
+            (click)="stop()"
+            >Parar</button>
+        </ng-template>
     </div>

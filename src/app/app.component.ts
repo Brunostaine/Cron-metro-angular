@@ -34,4 +34,11 @@ export class AppComponent implements OnInit  {
     }, 1000)
   }
 
-}
+  stop() {
+      if(this.segundos > 0) {
+        location.reload()
+      } 
+  }
+  }
+
+
